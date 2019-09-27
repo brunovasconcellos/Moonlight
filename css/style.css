@@ -10,13 +10,15 @@
 @media(max-width: 761px){
 
     .card-box{ 
+        margin-top: 3%; 
         width: 250px !important;
     }
 }
 
-@media(max-width: 575px){
+@media(min-width: 575px){
 
     .card-box{ 
+        margin-top: 3%; 
         width: 250px !important;
     }
     .service-block-item{
@@ -61,21 +63,16 @@
 
 }
 
-.first-banner{
-
-    background-image: url(../img/img-titulo.jpg);
-    background-position: center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    min-height: 50vh;
-    margin: 0;
-    
-}
-
 .service{
 
     background: #008cff;
     min-height: 60vh;
+
+}
+
+.title-service{
+
+    color: #ffffff;
 
 }
 
@@ -85,10 +82,88 @@
     
 }
 
+.card-serv{
 
-.img-banner{
+    height: 80vh;
 
-    max-height: 60vh;
-    width: 100%;
+}
 
-}   
+.card-photo-box{
+
+    background: #ffffff;
+
+}
+
+.card-photo{
+
+    max-height: 32vh;
+
+}
+
+.card  h5{
+
+    width: 210x;
+    height: 40px;
+
+}
+
+.card  p{
+
+    width: 210x;
+    height: 150px;
+
+}
+
+
+.banner{
+
+    background-image: url(../img/banner-index.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    margin: 0;
+    
+}
+
+.banner-mask{
+
+    background: #03093d50;
+    min-height: 70vh;
+    color: #ffffff;
+}
+
+.mask-text{
+
+    padding-top: 8%;
+
+}
+
+footer{
+
+    margin: 0;
+    background: #293d4d;
+    color: #ffffff;
+
+}
+
+footer p{
+
+    color: #cfcfcf;
+
+}
+
+.social img{
+
+    margin-top: 5%;
+    width: 30px;
+    height: 30px;
+    filter: opacity(85%);
+
+}
+
+.footer-end{
+
+    background: #1d2429;
+
+}
