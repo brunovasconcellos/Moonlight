@@ -31,8 +31,7 @@
 .menu{
 
     transition: .5s;
-    background: #ececec;
-    color: white;
+    background: #111529;
 
 }
 
@@ -43,10 +42,10 @@
 }
 
 .nav-itens a{
-
+    
     transition: .5s;
     text-decoration: none;
-    color: #467392;
+    color: #d6d6d6;
     
 
 }
@@ -54,7 +53,7 @@
 .nav-itens a:hover{
 
     transition: .5s;
-    color: #222836;
+    color: #ffffff;
 
 }
 
@@ -83,7 +82,7 @@
 .service{
 
     transition: .5s;
-    background: #008cff;
+    background: #0b1924;
     min-height: 60vh;
 
 }
@@ -147,8 +146,7 @@
 
 .banner-mask{
 
-    transition: .5s;
-    background: #03093d50;
+    background: #0c0fcf50;
     min-height: 70vh;
     color: #ffffff;
 }
@@ -163,7 +161,7 @@ footer{
 
     transition: .5s;
     margin: 0;
-    background: #293d4d;
+    background: #001525;
     color: #ffffff;
 
 }
@@ -214,6 +212,6 @@ footer p{
 .footer-end{
 
     transition: .5s;
-    background: #1d2429;
+    background: #121424;
 
 }
