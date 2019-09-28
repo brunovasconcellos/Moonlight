@@ -3,6 +3,7 @@ function tema(){
     let conditional = true;
     let cssFile;
 
+
     $(".btn-tema").click(()=>{
 
         switch(conditional) {
@@ -10,11 +11,15 @@ function tema(){
             case true:
                 cssFile = "css/styleBlack.css";
                 conditional = false;
+                $(".menu").removeClass("navbar-light");
+                $(".menu").addClass("navbar-dark");
                 break;
             
-            case false:
+            default:
                 cssFile = "css/style.css";
                 conditional = true;
+                $(".menu").removeClass("navbar-dark");
+                $(".menu").addClass("navbar-light");
                 break;
 
         }

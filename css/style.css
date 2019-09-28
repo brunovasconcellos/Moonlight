@@ -38,7 +38,9 @@
 
 .nav-itens{
 
-    padding-left: 55%;
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 10%;
 
 }
 
@@ -46,7 +48,7 @@
 
     transition: .5s;
     text-decoration: none;
-    color: #467392;
+    color: #6e767a !important;
     
 
 }
@@ -54,7 +56,7 @@
 .nav-itens a:hover{
 
     transition: .5s;
-    color: #222836;
+    color: #222836 !important;
 
 }
 

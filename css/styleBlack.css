@@ -37,7 +37,9 @@
 
 .nav-itens{
 
-    padding-left: 55%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
 
 }
 
@@ -45,7 +47,7 @@
     
     transition: .5s;
     text-decoration: none;
-    color: #d6d6d6;
+    color: #d6d6d6 !important;
     
 
 }
@@ -53,7 +55,7 @@
 .nav-itens a:hover{
 
     transition: .5s;
-    color: #ffffff;
+    color: #ffffff !important;
 
 }
 
@@ -82,7 +84,7 @@
 .service{
 
     transition: .5s;
-    background: #0b1924;
+    background: #033869;
     min-height: 60vh;
 
 }
@@ -100,7 +102,9 @@
 }
 
 .card-serv{
-
+    
+    background: #3187ce !important;
+    color: #ffffff;
     height: 60vh;
 
 }
