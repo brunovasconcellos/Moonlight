@@ -1,4 +1,4 @@
-function tema(){
+function theme(){
 
     let conditional = true;
     let cssFile;
@@ -29,4 +29,4 @@ function tema(){
     });
 }
 
-tema();
+theme();
