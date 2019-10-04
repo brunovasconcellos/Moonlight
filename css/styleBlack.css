@@ -59,6 +59,20 @@
 
 }
 
+.btn-theme{
+
+    border: solid 1px #004d96 !important;
+    color: #0485fd;
+
+}
+
+.btn-theme:hover{
+
+    transition: .5s;
+    background: #004d96;
+
+}
+
 .img-menu{
 
     display: block;
@@ -103,9 +117,10 @@
 
 .card-serv{
     
+    transition: .5s;
     background: #3187ce !important;
     color: #ffffff;
-    height: 60vh;
+    min-height: 60vh;
 
 }
 
