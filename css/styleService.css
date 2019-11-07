@@ -65,9 +65,73 @@
 
 }
 
-.container-iten{
+.database-cont{
 
-    margin-left: 26%;
-    margin-right: 10%;
-  
+    min-height: 50vh;
+    background-image: url(../img/programming.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ffffff;
+
+}
+
+footer{
+
+    transition: .5s;
+    margin: 0;
+    background: #293d4d;
+    color: #ffffff;
+
+}
+
+.footer-itens{
+
+    margin: 0 auto;
+
+}
+
+footer p{
+
+    color: #cfcfcf;
+
+}
+
+.footer-link a{
+
+    text-decoration: none;
+    color:#cfcfcf;
+    
+}
+
+.footer-link a:hover{
+
+    transition: .5s;
+    color: #ffffff; 
+
+}
+
+
+.social img{
+
+    margin-top: 5%;
+    width: 30px;
+    height: 30px;
+    filter: opacity(85%);
+
+}
+
+.social img:hover{
+
+    transition: .5s;
+    filter: opacity(100%);
+    
+}
+
+.footer-end{
+
+    transition: .5s;
+    background: #1d2429;
+
 }
