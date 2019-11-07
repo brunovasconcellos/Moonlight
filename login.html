@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg menu px-5  navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img class="img-menu img-fluid" src="img/moon-white3.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-itens" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="container-fluid p-0 secLogin">
+
+    <div class="row m-0 p-0">
+
+        <div class="col-md-6 img-login p-0  m-0"></div>
+        <div class="col-md-6 login m-0">
+            <form class="loginItem">
+                <div class="form-group">
+                  <h3 for="exampleInputEmail1">Login</h3>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <h3 for="exampleInputPassword1">Senha</h3>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                 
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary mr-4">Iniciar</button>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal-lg">Registrar-se</button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registrar-se</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="row rowModal">  
+                        <div class="form-group mr-3">
+                            <label for="recipient-name" class="col-form-label">Nome</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                      </div>
+                      <div class="row rowModal">  
+                            <div class="form-group mr-3">
+                                <label for="recipient-name" class="col-form-label">Senha</label>
+                                <input type="password" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Senha</label>
+                                <input type="password" class="form-control" id="recipient-name">
+                            </div>
+                          </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Criar</button>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+</section>
+
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>

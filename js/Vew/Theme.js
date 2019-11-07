@@ -8,32 +8,31 @@ class Theme{
 
     themeBlack(styleWhite, styleBlack){
 
-        let conditional = true;
         let cssFile;
     
-    
+        let conditional = true;
+
         $(".btn-theme").click(()=>{
-            
-            console.log("Amamya Ren");
-    
-            switch(conditional) {
-    
-                case true:
-                    cssFile = styleBlack;
-                    conditional = false;
-                    $(".menu").removeClass("navbar-light");
-                    $(".menu").addClass("navbar-dark");
-                    break;
+
+            if(conditional == true){
+
+                cssFile = styleBlack;
+                conditional = false;
+                $(".menu").removeClass("navbar-light");
+                $(".menu").addClass("navbar-dark");
+
+            }else{
+
+                cssFile = styleWhite;
+                conditional = true;
+                $(".menu").removeClass("navbar-dark");
+                $(".menu").addClass("navbar-light");
                 
-                default:
-                    cssFile = styleWhite;
-                    conditional = true;
-                    $(".menu").removeClass("navbar-dark");
-                    $(".menu").addClass("navbar-light");
-                    break;
-    
             }
-    
+
+            console.log(conditional);
+
+            localStorage.setItem("conditional", conditional);
             document.querySelector(".styleCss").href = cssFile;
     
         });
