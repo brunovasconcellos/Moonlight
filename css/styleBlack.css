@@ -95,6 +95,19 @@
 
 }
 
+.carousel-text{
+
+    padding-bottom: 18%;
+
+}
+
+.carousel-text-sub{
+
+    padding-bottom: 50%;
+    padding-right: 15%;
+
+}
+
 .service{
 
     transition: .5s;
