@@ -7,6 +7,23 @@
 
 }
 
+@media(max-width: 991px){
+
+    .nav-itens {
+
+        justify-content: left !important;
+
+    }
+
+    .btn-theme {
+
+        margin: 0 !important;
+
+    }
+
+}
+
+
 @media(max-width: 761px){
 
     .card-box{ 
