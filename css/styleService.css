@@ -1,3 +1,20 @@
+
+@media(max-width: 991px){
+
+    .nav-itens {
+
+        justify-content: left !important;
+
+    }
+
+    .btn-theme {
+
+        margin: 0 !important;
+
+    }
+
+}
+
 .menu{
 
     transition: .5s;
@@ -93,7 +110,7 @@
 
 .database-cont{
 
-    min-height: 40vh;
+    min-height: 50vh;
     background-image: url(../img/55895.jpg);
     background-position: center top;
     background-repeat: no-repeat;
