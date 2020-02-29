@@ -1,3 +1,19 @@
+@media(max-width: 991px){
+
+    .nav-itens {
+
+        justify-content: left !important;
+
+    }
+
+    .btn-theme {
+
+        margin: 0 !important;
+
+    }
+
+}
+
 .menu{
 
     transition: .5s;
